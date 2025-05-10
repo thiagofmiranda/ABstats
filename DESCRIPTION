@@ -9,6 +9,7 @@ Imports:
     config,
     fresh,
     golem,
+    pkgload,
     pwr,
     shiny,
     shinydashboard,

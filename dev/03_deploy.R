@@ -16,7 +16,7 @@
 ## Run checks ----
 ## Check the package before sending to prod
 devtools::check()
-rhub::check_for_cran()
+# rhub::check_for_cran()
 
 # Deploy
 
@@ -27,15 +27,15 @@ devtools::build()
 
 ## Docker ----
 ## If you want to deploy via a generic Dockerfile
-golem::add_dockerfile_with_renv()
-## If you want to deploy to ShinyProxy
-golem::add_dockerfile_with_renv_shinyproxy()
+# golem::add_dockerfile_with_renv()
+# ## If you want to deploy to ShinyProxy
+# golem::add_dockerfile_with_renv_shinyproxy()
 
 ## Posit ----
 ## If you want to deploy on Posit related platforms
-golem::add_positconnect_file()
+# golem::add_positconnect_file()
 golem::add_shinyappsio_file()
-golem::add_shinyserver_file()
+# golem::add_shinyserver_file()
 
 ## Deploy to Posit Connect or ShinyApps.io ----
 

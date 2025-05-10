@@ -1,0 +1,12 @@
+name: ABstats
+title: ABstats
+username: thiagomiranda
+account: thiagomiranda
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14727270
+bundleId: 10261799
+url: https://thiagomiranda.shinyapps.io/ABstats/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
