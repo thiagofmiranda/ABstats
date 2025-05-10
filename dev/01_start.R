@@ -65,8 +65,13 @@ usethis::use_git()
 ## Sets the remote associated with 'name' to 'url'
 usethis::use_git_remote(
   name = "origin",
-  url = "https://github.com/<OWNER>/<REPO>.git"
+  url = "https://github.com/thiagofmiranda/ABstats.git"
 )
+
+usethis::use_package("shinydashboard")
+usethis::use_package("shinydashboardPlus")
+usethis::use_package("pwr")
+usethis::use_package("fresh")
 
 # You're now set! ----
 
